@@ -8,6 +8,7 @@ import android.support.v7.widget.RecyclerView
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
+    //Tutorial from https://www.techotopia.com/index.php/A_Kotlin_Android_RecyclerView_and_CardView_Tutorial
 
     private var layoutManager: RecyclerView.LayoutManager? = null
     private var adapter: RecyclerView.Adapter<RecyclerAdapter.ViewHolder>? = null
